@@ -14,7 +14,6 @@ mongoose.connect(`mongodb+srv://ivens772:${process.env.DB_PASSWORD}@devfs.s08zba
     console.log("conexion exitosa")
 })
 .catch(err=>console.log(err))
-console.log("HOLA A TODOS")
  const productSchema = mongoose.Schema({
     name: {type:String, required:true},
     price: Number,
